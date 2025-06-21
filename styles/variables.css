@@ -1,1 +1,44 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --endtag-font-main: "Inter-Variable";
+  --endtag-font-accent: "PressStart2P-Regular";
+  --endtag-font-weight-normal: 400;
+  --endtag-font-weight-bold: 700;
+  --endtag-color-bgd: #fff;
+  --endtag-color-accent: #000;
+  --endtag-color-button-text: #fff;
+
+  /* heart */
+  --heart-contour-color: #000;
+  --heart-contour-active-color: #f00;
+
+  --heart-core-color: #000;
+  --heart-core-transparent: transparent;
+  --heart-core-active-color: #f00;
+
+  --heart-main-body-color: #000;
+  --heart-main-body-transparent: transparent;
+  --heart-main-body-active-color: #f00;
+
+  --heart-sparks-color: #f00;
+  --heart-sparks-transparent: transparent;
+
+  /* background */
+  --endtag-gradient-basic: linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  --endtag-gradient-line-horizontal: repeating-linear-gradient(
+    to right,
+    transparent 0,
+    #d3d3d3 1px,
+    #d3d3d3 2px,
+    transparent 3px,
+    transparent 4px
+  );
+  --endtag-gradient-line-vertical: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    #d3d3d3 1px,
+    #d3d3d3 2px,
+    transparent 3px,
+    transparent 4px
+  );
+}
