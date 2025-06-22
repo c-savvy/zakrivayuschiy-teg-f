@@ -249,9 +249,6 @@
 
 /* heart */
 
-.main-body {
-  transition: fill 0.3s linear;
-}
 .contour {
   fill: var(--heart-contour-color);
 }
