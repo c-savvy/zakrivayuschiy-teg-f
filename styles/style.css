@@ -228,8 +228,6 @@ h1 {
   inline-size: 39px;
   block-size: 39px;
 }
-.dialog__text {
-}
 .dialog__button {
   padding: 10px 0;
   text-transform: uppercase;
