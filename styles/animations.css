@@ -17,24 +17,6 @@
   }
 }
 
-@keyframes core-anim {
-  100% {
-    fill: var(--heart-core-active-color);
-  }
-}
-
-@keyframes main-body-anim {
-  100% {
-    fill: var(--heart-main-body-active-color);
-  }
-}
-
-@keyframes contour-anim {
-  100% {
-    fill: var(--heart-contour-active-color);
-  }
-}
-
 @keyframes sparks-anim {
   100% {
     fill: var(--heart-sparks-color);

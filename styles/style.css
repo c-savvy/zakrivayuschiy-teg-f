@@ -69,7 +69,7 @@ h1 {
 .card__image-text {
   position: absolute;
   inset-inline-end: 25px;
-  inset-block-start: 27px;
+  inset-block-start: 25px;
   z-index: 1;
   font-family: var(--endtag-font-accent), fantasy;
   font-weight: var(--endtag-font-weight-normal);
@@ -181,13 +181,8 @@ h1 {
   font-size: 14px;
   line-height: 90%;
 }
-.save__button-container {
-  margin: 50px auto 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .save__button {
+  margin: 50px auto 0;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -299,18 +294,18 @@ h1 {
   animation: icon-scaling-anim 0.3s 0.1s ease-in reverse;
 
   .core {
-    animation: core-anim 0.3s linear;
-    animation-fill-mode: both;
+    fill: var(--heart-core-active-color);
+    transition: fill 0.3s linear;
   }
 
   .main-body {
-    animation: main-body-anim 0.3s 0.05s linear;
-    animation-fill-mode: both;
+    fill: var(--heart-core-active-color);
+    transition: fill 0.3s linear 0.05s;
   }
 
   .contour {
-    animation: contour-anim 0.3s 0.06s linear;
-    animation-fill-mode: both;
+    fill: var(--heart-core-active-color);
+    transition: fill 0.3s linear 0.06s;
   }
 
   .sparks {
